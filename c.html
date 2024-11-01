@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Box Model</title>
+    <header>
+        <h1>Conceito de Box Model</h1>
+    </header>
+    <div class="button-container">
+        <button onclick="window.location.href='avaliação.html'">Voltar</button>
+    </div>
+<main> 
+    <section>
+  <h2>Box Model</h2>
+        <p>O Box Model é um conceito fundamental no CSS que descreve como os elementos HTML são estruturados<br>
+            e como o espaço é gerenciado ao redor deles. <br>
+            Cada elemento é representado como uma caixa retangular, <br>
+            composta por quatro áreas principais: conteúdo, preenchimento (padding), borda (border) e margem (margin).</p>
+</main>  
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #D3D3D3;
+            margin: 0;
+            padding: 0;
+        }
+        .box {
+            display: inline-block;
+            margin: 10px;
+            border: 5px solid black;
+            padding: 20px;
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            color: black;
+        }
+        .box1 { background-color: #ff6961; }
+        .box2 { background-color: #84b6f4; }
+        .box3 { background-color: #77dd77; }
+        .box4 { background-color: #ffffc8; }
+
+        h1 {
+    background-color: 	#4682B4;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position:  fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.button-container button{
+        background-color: 	#4682B4;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        margin: 1px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease ;
+        
+    }
+.button-container button:hover{
+    background-color: black;
+}
+    </style>
+</head>
+
+<main>
+    <section>
+        <body>
+            <div class="box box1">Box 1</div>
+            <div class="box box2">Box 2</div>
+            <div class="box box3">Box 3</div>
+            <div class="box box4">Box 4</div>
+            
+        <h2>Propriedade do Box Model</h2>
+        <p><strong>Conteúdo (Content):</strong>A área onde o texto e outras mídias são exibidos. É a parte central da caixa.</p>
+        <p><strong>Preenchimento (Padding):</strong>A área onde o texto e outras mídias são exibidos. É a parte central da caixa.</p>
+        <p><strong>Borda (Border):</strong>A linha que envolve o preenchimento e o conteúdo. Pode ter espessura, estilo e cor.</p>
+        <p><strong> Margem (Margin):</strong>O espaço externo da caixa, que separa a caixa de outras caixas.</p>
+    </section>
+</main>
+    <footer>
+        <p>© 2024 Pablo Diego Costa Nascimento.</p>
+    </footer>
+</body>
+</html>

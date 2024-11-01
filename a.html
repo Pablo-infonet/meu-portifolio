@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cascata</title>
+<body>
+     
+        <h1> Estilo de Cascata</h1>
+    <div class="button-container">
+        <button onclick="window.location.href='avaliação.html'">Voltar</button>
+    </div>
+    <main>
+        <section>
+                     <h2>Cascata</h2>
+                   <p> <b>A cascata nas folhas de estilo — em um nível muito simples, isso significa que a origem, a camada em cascata e a ordem das regras CSS 
+                       são importantes. Quando duas regras da mesma camada em cascata se aplicam e ambas
+                        têm igual especificidade, aquela que for definida por último na folha de estilo é a que será utilizada.</p></b>
+
+                        <p> <b>No exemplo abaixo, temos duas regras que podem ser aplicadas ao elemento h3. O conteúdo h3 acaba sendo colorido de azul. Isso ocorre porque ambas as regras são da mesma fonte, têm um seletor de elemento idêntico e, portanto, carregam a mesma especificidade, mas a última na ordem da fonte vence.</b></p>
+    
+                        <h3>This is my heading.</h3>
+
+                    <center>   <img src="Design sem nome (1).png" alt=""></center>
+                    </main>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #D3D3D3;
+            margin: 0;
+            padding: 0;
+        }
+                h1 {
+    background-color: 	#4682B4;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+h3 {
+  color: red;
+}
+h3 {
+  color: blue;
+}
+footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position:  fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+    main {
+        padding: 20px;
+        max-width: 800px;
+        margin: 0 auto;
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+    }
+    
+    section {
+        margin-bottom: 20px;
+    }
+    header{
+        background-color: 	#4682B4;
+        color: white;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .button-container button{
+        background-color: 	#4682B4;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        margin: 1px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease ;
+        
+    }
+.button-container button:hover{
+    background-color: black;
+}
+
+
+img{
+            width:580px;
+            height: 400;
+            margin: 20px;
+        }
+     </style>
+       <footer>
+        <p>© 2024 Pablo Diego Costa Nascimento.</p>
+    </footer>
+</body>
+</html>
